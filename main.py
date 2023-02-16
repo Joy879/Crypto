@@ -12,7 +12,7 @@ import json
 # Initialize the app
 app = dash.Dash(__name__)
 #app.config.suppress_callback_exceptions = True
-server = app.server()
+server = app.server
 
 apikey = 'FEED46F5-3359-4C84-86AF-0A92AB6807A3'
 
